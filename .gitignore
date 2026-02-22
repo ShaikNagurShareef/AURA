@@ -1,0 +1,56 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+backend/oculomics/artifacts/*
+backend/oculomics/artifacts/gradcam_inference/*
+
+# ── Env and secrets ───────────────────────────────────────────────────────────
+.env
+frontend/.streamlit/secrets.toml
+
+# ── Databases ─────────────────────────────────────────────────────────────────
+*.db
+chroma_data/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.DS_Store
+
+# ── Node / Web ────────────────────────────────────────────────────────────────
+node_modules/
+dist/
+build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── Logs & Data ─────────────────────────────────────────────────────────────
+*.log
+data/
+logs/
+backend/data/
+backend/logs/
+backend/oculomics/artifacts/gradcam_inference/*
+
+# Ensure gitkeeps are tracked
+!.gitkeep
+
+# ── Model Weights ─────────────────────────────────────────────────────────────
+*.pth
+*.pt
+*.ckpt
+*.bin
