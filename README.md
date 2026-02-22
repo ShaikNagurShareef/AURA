@@ -6,7 +6,7 @@ A multimodal AI-driven healthcare platform designed for modern clinical workflow
 - **Nagur Shareef Shaik**
 - **Aasrith Mandava**
 - **Sri Venkata Naga Sai Kakani**
-- **Aasrith Karthikeya Gogineni**
+- **Asish Karthikeya Gogineni**
 
 ---
 
